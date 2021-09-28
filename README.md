@@ -16,11 +16,13 @@ DB_PORT       = YOUR_DB_PORT
 User : 
   POST : /api/v2/login (login)
   POST : /api/v2/register (register)
+  
 Product :
   GET    : /api/v2/product (Get all product or Get product of url request parameter)
   POST   : /api/v2/product (Create product from Multipart or Urlencoded Form)
   PUT    : /api/v2/product (Edit product from Multipart or Urlencoded Form)
   DELETE : /api/v2/product (Delete product from Multipart or Urlencoded Form)
+  
 Transaction :
   GET  : /api/v2/transaction (Get transaction in user)
   POST : /api/v2/transaction (Create transaction in user)
