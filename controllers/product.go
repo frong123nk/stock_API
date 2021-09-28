@@ -14,9 +14,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func SetupProductAPI(router *gin.Engine) {
-
-}
 
 func GetProduct(c *gin.Context) {
 	var product []model.Product
